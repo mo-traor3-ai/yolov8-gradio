@@ -1,6 +1,6 @@
 import PIL.Image as Image
 import gradio as gr
-from ultralytics import ASSETS, YOLO
+from ultralytics import YOLO
 
 
 model = YOLO("./faces.pt")
@@ -27,11 +27,11 @@ interface = gr.Interface(
         gr.Slider(minimum=0, maximum=1, value=0.40, label="Confidence Thresohld")
     ],
     outputs=gr.Image(type="pil", label="Result"),
-    title="Ultralytics YOLOv8 Gradio App",
-    description="Upload images for Inference. The Ultralytics base YOLOv8n model is used by default.",
+    title="Ultralytics YOLOv8 Object Detection Gradio App",
+    description="Upload images for Inference. A fine-tuned face detection model is used by default.",
     examples=[
         ["./samples/face.jpg", 0.40],
-        [ASSETS / "zidane.jpg", 0.40]
+        ["./samples/zidane.jpg", 0.40]
     ]
 )
 
