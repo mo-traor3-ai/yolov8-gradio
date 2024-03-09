@@ -8,6 +8,14 @@ The Roboflow YOLOv8 Object Detection training notebook was used to train the mod
 
 * [Roboflow Notebooks](https://github.com/roboflow/notebooks)
 
+* YOLOv8 Object Detection Tutorial Notebook Options:
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb) [![SageMaker](https://raw.githubusercontent.com/roboflow-ai/notebooks/main/assets/badges/sage-maker.svg)](https://studiolab.sagemaker.aws/import/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb)
+
+* YOLOv8 Object Detection Written & Video Guides:
+
+[![Roboflow](https://raw.githubusercontent.com/roboflow-ai/notebooks/main/assets/badges/roboflow-blogpost.svg)](https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset) [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/wuZtUMEiKWY)
+
 * [Face Detection dataset](https://universe.roboflow.com/mohamed-traore-2ekkp/face-detection-mik1i/dataset/18) from Mohamed Traore used in training.
 
 [![Explore the Dataset](https://github.com/roboflow/notebooks/blob/main/assets/badges/roboflow-dataset.svg)](https://universe.roboflow.com/mohamed-traore-2ekkp/face-detection-mik1i)
